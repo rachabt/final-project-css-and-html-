@@ -1,0 +1,210 @@
+body {
+ background-color:#ff9a3c;
+}
+  
+
+
+
+  nav {
+    background-color:  #155263;
+    padding: 10px
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+   nav ul li a:hover {
+    color: white;
+    background-color: #ff6f69;
+  }
+  
+/*logo*/ 
+  
+
+    
+.logo {
+  float: left; 
+  margin-right: 20px;
+  size: 10px;
+}
+
+
+  .title {
+    text-align: center;
+  }
+
+  
+  .title h1 {
+    font-size: 48px;
+    font-family: sans-serif ;
+    color: rgb(4, 30, 48);
+  }
+
+  .title h2 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 30, 48);
+  }
+  
+  
+
+  .paragraph-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ffe3b0;
+    background-color: #ffe3b0;
+    border-radius: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color :rgb(4, 30, 48) ; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+
+
+
+
+  .image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+
+
+
+.image-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper2 {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+#more-content {
+  display: none; 
+  margin-top: 20px;
+}
+
+#more-button:focus + #more-content {
+  display: block; 
+  margin: 0 auto;
+}
+
+
+
+
+.image-container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper3 {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.1); 
+  }
+
+
+
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+.book-a-trip {
+  background-color: rgb(4, 30, 48);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.book-a-trip input[type="text"], .book-a-trip input[type="date"], .book-a-trip input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.book-a-trip button {
+  background-color: rgb(189, 117, 84);
+  color: rgb(4, 30, 48);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
